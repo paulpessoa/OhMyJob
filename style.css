@@ -191,3 +191,37 @@ nav::after {
 }
 
 
+
+/*imagem company*/
+
+.company-box {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    padding-left: 1%;
+}
+
+.company-box img {
+    width: 100px;
+    margin-top: 25px;
+}
+
+.company-info {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: left;
+    position: absolute;
+}
+
+
+.company-info h3 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.company-info p {
+    font-weight: bold;
+}
+
+
