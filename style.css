@@ -225,3 +225,20 @@ nav::after {
 }
 
 
+/*company locality*/
+.locality {
+    color: #6d6d6d;
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    line-height: 80px;
+}
+
+.locality i, .locality p {
+    display: inline-block;
+}
+
+.locality i {
+    margin-right: 5px;
+}
