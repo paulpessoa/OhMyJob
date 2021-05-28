@@ -403,3 +403,68 @@ nav::after {
 .status-text {
     font-size: 20px;
 }
+
+
+
+/* testmony section*/
+
+#testmony-container {
+    background: url('./img/banner1.jpg') no-repeat;
+    background-size: cover;
+    padding: 10em 0;
+    background-position: center;
+}
+
+#testmony-container h2, #testmony-container p {
+    color: #fff;
+    text-align: center;
+}
+
+#testmony-container h2 {
+    font-size:36px;
+    margin-bottom:50px
+}
+
+#testmony-container p {
+    margin-bottom: 50px;
+}
+
+.textmony-box {
+    display: inline-block;
+    width: 24.5%;
+    text-align: center;
+}
+
+#testmony-container .textmony-box .textmony-msg {
+    background-color: #fff;
+    color: #666;
+    border-radius:10px;
+    padding: 20px;
+    width: 65%;
+    position: relative;
+    margin: 35px auto;
+    font-style: italic;
+}
+
+.textmony-msg:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textmony-box img {
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
